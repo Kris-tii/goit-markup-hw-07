@@ -1,0 +1,157 @@
+@media screen and (min-width:428px) {
+    .container{
+        width: 428px;
+    }
+    .content{
+        display: none;
+    }
+    .section-img{
+    display: none;
+    }
+    .section-img-item{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+    .hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+}
+    .customers-item {    
+    flex-basis: calc((100% - 48px) / 3);
+}
+.section{
+    padding: 96px 16px;
+}
+.section-title{
+    text-align: left;
+}
+.section-item{
+    /* width: 356px; */
+    flex-basis: calc((100% - 24px) / 2)
+}
+.section-list{
+    gap: 72px 24px;
+}
+.aside-item {
+    flex-basis: calc((100% - 24px) / 2);
+}
+.aside-list{
+    gap: 64px 24px;
+}
+.logo-logo{
+    justify-content: flex-start;
+}
+.footer-container{
+    margin-right: 24px;
+}
+.footer-section{
+    text-align: start;
+}
+.footer-form{
+    flex-wrap:nowrap;
+}
+.footer-subscribe-email{
+    width: 264px;
+}
+.footer-subscribe{
+    display: block;
+    text-align: left;
+}
+}
+
+@media screen and (min-width:1158px) {
+    .container {
+        width: 1158px;
+    }
+    .content{
+        display: flex;
+    }
+.hero-title {
+    margin-bottom: 48px;
+}
+.hero {
+    padding-top: 188px;
+padding-bottom: 188px;
+}
+    .section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    .section-img{
+        display: flex;
+    }
+    .section-img-item{
+        display: flex;}
+    
+        .section-title{
+        text-align:left;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.20;
+    }
+.section-item{
+    max-width: 264px;
+}
+.section-list{
+    gap: 24px;
+}
+    .section-link{
+        font-weight: 400;
+    }
+    
+    .customers-item{
+    flex-basis: calc((100% - 120px) / 6);
+    }   
+    .aside{
+        padding-top: 120px;
+        padding-bottom: 120px;   
+    } 
+.aside-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
+    .aside-list{
+    gap: 24px;
+}
+.footer-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-section {
+    margin-left: 120px;
+}
+.footer-subscribe {
+    margin-left: 80px;
+}
+.footer-container {
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:428px){
+    .section-img{
+    display: none;
+    }
+    .section-img-item{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .aside > .container{
+        width: 582px;
+    }
+    .customers > .container{
+        width: 582px;
+    }
+} 
