@@ -334,20 +334,11 @@ background: var(--main-blue2-color);
 }
 
 .section-img{
-    background: #F4F4FD;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+display: none;
 }
 
 .section-img-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
 
 .section-title{
@@ -386,24 +377,8 @@ gap: 72px;
 }
 
 /* **********************content**************** */
-.content{
-    padding-bottom: 96px;
-    padding-top: 96px;
-}
-
-.content-title{
-    font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--main-gray-color);
-margin-bottom: 72px;
-}
-
-.content-list{
-    display: flex;
-    gap: 24px;
+.content {
+    display: none;
 }
 
 /********************** aside ******************/
