@@ -2,9 +2,9 @@
     .container{
         width: 428px;
     }
-    /* .content{
+    .content{
         display: none;
-    } */
+    }
     .section-img{
     display: none;
     }
@@ -311,5 +311,23 @@ padding-bottom: 188px;
     }
     .customers > .container{
         width: 582px;
+    }
+}
+
+@media screen and (max-width:427px) {
+    .container {
+        width: 427px;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .section-img {
+        display: none;
+    }
+
+    .section-img-item {
+        display: none;
     }
 }
