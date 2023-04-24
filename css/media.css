@@ -71,9 +71,9 @@ letter-spacing: 0.04em;
 .address-list{
     display: block;
 }
-.aside-item:not(:last-child){
+/* .aside-item:not(:last-child){
 margin-bottom: 12px;
-}
+} */
 
 .header-link:hover,
 .header-link:focus {
@@ -161,6 +161,17 @@ margin-bottom: 12px;
     padding: 96px 108px;
     justify-content: left;
 }
+.main-section-portfolio {
+    padding-top: 64px;
+}
+
+.portfolio {
+justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+}
+.slider-list {
+    gap: 72px 24px;
 }
 
 @media screen and (min-width:1158px) {
@@ -251,6 +262,18 @@ padding-bottom: 188px;
 .footer-container {
     margin-right: 0px;
     margin-bottom: 0px;
+}
+.main-section-portfolio {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.portfolio {
+    margin-bottom: 72px;
+}
+
+.slider-list {
+    gap: 48px 24px;
 }
 }
 
