@@ -116,11 +116,15 @@ margin-bottom: 12px;
     line-height: 1.07;
     margin-bottom: 36px;
 }
-    .customers-item {    
-    flex-basis: calc((100% - 48px) / 3);
+    .customers-item { 
+        width: 168px;   
+    /* flex-basis: calc((100% - 48px) / 3); */
+}
+.customers-list {
+    gap: 74px 24px;
 }
 .section{
-    padding: 96px 16px;
+    padding: 96px 0px;
 }
 .section-title{
     text-align: left;
@@ -158,7 +162,8 @@ margin-bottom: 12px;
     text-align: left;
 }
 .footer-content{
-    padding: 96px 108px;
+    padding-right: 108px;
+    padding-left: 108px;
     justify-content: left;
 }
 .main-section-portfolio {
@@ -234,6 +239,7 @@ padding-bottom: 188px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.20;
+        margin-top: 8px;
     }
 .section-item{
     max-width: 264px;
@@ -249,8 +255,7 @@ padding-bottom: 188px;
     flex-basis: calc((100% - 120px) / 6);
     }  
 .content {
-    padding-bottom: 96px;
-    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .content-title {
@@ -267,6 +272,11 @@ padding-bottom: 188px;
     display: flex;
     gap: 24px;
 }
+.customers{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
     .aside{
         padding-top: 120px;
         padding-bottom: 120px;   
@@ -277,8 +287,13 @@ padding-bottom: 188px;
     .aside-list{
     gap: 24px;
 }
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .footer-content{
-    padding: 100px 0px;
+    padding: 0px 0px;
     justify-content: center;
 }
 .footer-section {
@@ -309,9 +324,9 @@ padding-bottom: 188px;
     .aside > .container{
         width: 582px;
     }
-    .customers > .container{
+    /* .customers > .container{
         width: 582px;
-    }
+    } */
 }
 
 @media screen and (max-width:427px) {
